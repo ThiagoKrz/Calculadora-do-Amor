@@ -95,7 +95,7 @@ calcBtn.addEventListener("click", function (e) {
       "<b>" +
       capitalize_Words(theirName.value) +
       "</b>" +
-      " se amam como personagem de romance. Essa é uma boa combinação, e um bom exemplo de amor verdadeiro.";
+      " se amam como personagens de romance. Essa é uma boa combinação, e um bom exemplo de amor verdadeiro.";
   } else if (loveScore <= 60) {
     yourlovescoreis.innerHTML = "O seu nivel de amor é";
     love();
