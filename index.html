@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculadora do Amor</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="heading">
+        <h1>Calculadora ♥ do Amor</h1>
+        <h4>Encontre o resultado do nivel do seu Amor</h4>
+      </div>
+
+      <div class="maincontent">
+        <div>
+          <!-- Seu nome Inputfield -->
+          <label for="yourname">*Seu nome</label><br />
+          <input
+            type="text"
+            id="yourname"
+            placeholder="Adicione seu Nome"
+            spellcheck="false"
+            maxlength="30"
+            required
+          />
+        </div>
+        <div>
+          <!-- His/Her name Inputfield -->
+          <label for="theirname">*Nome do parceiro</label><br />
+          <input
+            type="text"
+            id="theirname"
+            placeholder="Adicione o nome do seu parceiro"
+            spellcheck="false"
+            maxlength="30"
+            required
+          />
+        </div>
+      </div>
+      <button type="submit">❤ CALCULAR ❤</button>
+
+      <div class="result">
+        <h2>Resultado</h2>
+        <div class="divider"></div>
+        <p id="yourlovescoreis"></p>
+        <h1 id="score"></h1>
+        <p id="loveinfo"></p>
+        <p
+          id="reload"
+          style="
+            cursor: pointer;
+            display: none;
+            margin-top: 30px;
+            font-weight: 700;
+          "
+          onClick="window.location.reload();"
+        >
+          ↺ Recalcular
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <p style="color: #000">
+        Feiro com <span style="color: #ff4136; font-size: 25px">❤</span> By
+        <a
+          style="text-decoration: none; font-weight: bold; color: #ff4136"
+          target="_blank"
+          href="https://github.com/ThiagoKrz"
+          >ThKrz</a
+        >
+        <br />
+        <small>*Feito para uso em testes</small>
+      </p>
+    </div>
+
+    <script type="text/javascript"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
